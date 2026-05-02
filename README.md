@@ -87,44 +87,6 @@ CIFAR-10 содержит цветные изображения размером
 - метка также объединяется с латентным вектором перед декодером;
 - при генерации можно задавать нужный класс изображения.
 
-## Структура проекта
-
-```text
-.
-├── StepanovNI_lab4.ipynb   # итоговый ноутбук с реализацией VAE и CVAE
-├── lab_vae4.ipynb          # рабочий/исходный ноутбук лабораторной работы
-└── README.md               # описание проекта
-```
-
-## Установка и запуск
-
-1. Клонировать репозиторий:
-
-```bash
-git clone https://github.com/<username>/vae-cvae-mnist-cifar10.git
-cd vae-cvae-mnist-cifar10
-```
-
-2. Установить зависимости:
-
-```bash
-pip install tensorflow keras numpy matplotlib
-```
-
-3. Запустить Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
-
-4. Открыть файл:
-
-```text
-StepanovNI_lab4.ipynb
-```
-
-Датасеты MNIST и CIFAR-10 загружаются автоматически средствами Keras.
-
 ## Основные результаты
 
 ### MNIST
